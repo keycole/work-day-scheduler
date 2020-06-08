@@ -1,6 +1,6 @@
 # Work Day Scheduler
 
-Link to published page: https://keycole.github.io/my-work-day-scheduler/
+Link to published page: https://keycole.github.io/work-day-scheduler/
 
 ## Purpose
 
