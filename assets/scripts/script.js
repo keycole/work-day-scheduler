@@ -59,8 +59,11 @@ function checkTime() {
 checkTime();
 
 //Function to clear calendar contents before the start of the next day
+    //Issue: Browser needs to be open in order for this to work.
+    //If the browser window is closed before 11:50PM on the current day and opened the next
+    //the textarea contents will not be emptied.
 function clearCal() {
-    var clearTime = moment().hour(23).minute(59);
+    var clearTime = moment().hour(23).minute(50);
     if (moment().isSameOrAfter(clearTime)) {
         for (var i = 0; i < hourArray.length; i++) {
             localStorage.clear();
@@ -69,6 +72,17 @@ function clearCal() {
 };
 
 clearCal();
+
+//Function to auto refresh the page every 60 seconds
+//This ensures that the color coding updates promptly.
+function refresh(){
+    setTimeout(function() {
+        location.reload();
+      }, 60000);
+      console.log('The page was just refreshed.');
+};
+
+refresh();
 
 //dom ready close
 });

@@ -62,6 +62,9 @@ Calendar contents are cleared automatically at 11:59PM.
         <img src="./assets/readme-images/03353e.png" width="100">
 
 
+1. Favicon . io: https://favicon.io/emoji-favicons/timer-clock/
+
+
 ## Screenshots
 
 **Desktop**
