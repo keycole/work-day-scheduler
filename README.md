@@ -19,8 +19,64 @@ Calendar contents are cleared automatically at 11:59PM.
 
 1. jQuery: https://jquery.com/
 
+1. Google Fonts: https://fonts.google.com/
+
+    - h1: Rammetto One
+
+    - body: Ubuntu
+
+
+    ```html
+        <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&family=Ubuntu&display=swap" rel="stylesheet">
+    ````
+
+1. Color Theme Found on Visme: _Turquoise and Red_ 
+
+    https://visme.co/blog/color-combinations/
+    - Past Event Color Code: 
+        ```css
+        color: #a79c93;
+        ```
+
+        <img src="./assets/readme-images/a79c93.png" width="100">
+
+    - Current Event Color Code:
+        ```css
+        color: #c1403d;
+        ```
+
+        <img src="./assets/readme-images/c1403d.png" width="100">
+
+    - Future Event Color Code:
+        ```css
+        color: #0294a5;
+        ```
+
+        <img src="./assets/readme-images/0294a5.png" width="100">
+
+    - Header Color:
+        ```css
+        color: #03353e;
+        ```
+
+        <img src="./assets/readme-images/03353e.png" width="100">
+
 
 ## Screenshots
 
-TK
+**Desktop**
 
+
+![Desktop GIF](./assets/readme-images/desktopCalendarApp.gif)
+
+
+**Tablet**
+
+
+![Tablet GIF](./assets/readme-images/tabletCalendarApp.gif)
+
+
+**Mobile**
+
+
+![Mobile GIF](./assets/readme-images/mobileCalendarApp.gif)
