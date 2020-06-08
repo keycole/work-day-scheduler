@@ -1,0 +1,110 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+h1 {
+  font-family: 'Rammetto One', cursive;
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  color: white;
+  text-shadow: 2px 2px #0294a5;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #ffffff;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #03353e;
+  color: white;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #03353e;
+  border-top: 1px dashed #03353e;
+  padding-top: 10px;
+}
+
+.past {
+  background-color: #a79c93;
+  color: white;
+}
+
+.present {
+  background-color: #c1403d;
+  color: white;
+}
+
+.future {
+  background-color: #0294a5;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #03353e;
+  color: white;
+}
+
+.saveBtn:hover {
+  font-size: 20px;
+  color: #c1403d;
+  transition: all .3s ease-in-out;
+}
+
+/*Mobile Styling*/
+@media (max-width: 650px) {
+  .display-3 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+  }
+
+  .description{
+    float: right;
+    max-width: 60%;
+  }
+  
+  .time-block{
+    float:right;
+  }
+
+  .hour {
+    min-width: 20%;
+  }
+
+  .saveBtn {
+    float: right;
+    min-width: 20%;
+  }
+
+} 
