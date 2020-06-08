@@ -79,7 +79,6 @@ function refresh(){
     setTimeout(function() {
         location.reload();
       }, 60000);
-      console.log('The page was just refreshed.');
 };
 
 refresh();
