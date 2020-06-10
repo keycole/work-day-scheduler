@@ -6,8 +6,8 @@ Link to published page: https://keycole.github.io/work-day-scheduler/
 
 
 A simple calendar application that allows the user to save events for each hour of the day.
-
-Users can clear all contents by using the "Clear All" button.
+- Hours are color coded to indicate past, present, and future time slots.
+- Users can clear the previous day's events by using the "Clear All" button.
 
 
 ## Built With
