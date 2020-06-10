@@ -7,8 +7,7 @@ body {
 h1 {
   font-family: 'Rammetto One', cursive;
   font-size: 4.5rem;
-  font-weight: 300;
-  line-height: 1.2;
+  margin-bottom: 15px;
   color: white;
   text-shadow: 2px 2px #0294a5;
 }
@@ -28,6 +27,16 @@ textarea {
   color: white;
   border-radius: 0;
   border-bottom: 10px solid black;
+}
+
+#current-day {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.75rem;
+} 
+
+#clear-all {
+  color:#03353e;
 }
 
 .description{
@@ -87,6 +96,17 @@ textarea {
     font-size: 2.5rem;
     font-weight: 200;
     line-height: 1.2;
+  }
+
+  #current-day {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+  } 
+  
+  #clear-all {
+    color:#03353e;
+    font-size: 1rem;
   }
 
   .description{

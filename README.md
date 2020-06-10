@@ -7,7 +7,7 @@ Link to published page: https://keycole.github.io/work-day-scheduler/
 
 A simple calendar application that allows the user to save events for each hour of the day.
 
-Calendar contents are cleared automatically at 11:59PM.
+Users can clear all contents by using the "Clear All" button.
 
 
 ## Built With
