@@ -59,7 +59,6 @@ $(document).ready(function () {
     //Function to clear calendar contents if "Clear All" button is clicked
     $('#clear-all').click(function () {
         localStorage.clear();
-        $('textarea').empty();
         location.reload();
     });
 
