@@ -63,6 +63,7 @@ textarea {
 
 .past {
   background-color: #a79c93;
+  text-decoration: line-through;
   color: white;
 }
 
