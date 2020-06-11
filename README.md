@@ -23,7 +23,7 @@ A simple calendar application that allows the user to save events for each hour 
 
     - h1: Rammetto One
 
-    - body: Ubuntu
+    - all other elements: Ubuntu
 
 
     ```html
